@@ -63,6 +63,9 @@ header p{
         width: 45%;
         margin-bottom: 20px;
     }
+    .store-box .box-1 p{
+        margin-top: 47px;
+    }
     .coffee-jar{
         margin: 60px 0;
         margin-right: 40px;

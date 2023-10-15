@@ -1,134 +1,102 @@
 @media (max-width: 768px) { 
-.nav-left a, .nav-right a{
-    font-size: 20px;
-   
-    margin: 0 15px;
-}
-    
-header h1{
-    padding: 0 100px;
-}    
-header p{
-    margin: 0 60px;
-}
-.main-text-wrapper button{
-    margin: 52px 0;
-}
-.main-text-wrapper button{
-    margin-bottom: 60px;
-}
+    .header .header-wrapper .container .image-container .col-40{
+        width: 100%;
+    }
 
-/* -------------------------------------------------- */
-.coffee-brand{
-    padding: 40px;
-}
-.section-1-wrapper .main-text{
-    padding-top: 15px;
-}
-.section-1-wrapper .col-60 h2, .section-1-wrapper .col-60 h3{
-    margin-top: 5px;
-}
-.section-2-wrapper .main-text{
-    padding-top: 20px;
-    padding-left: 0;
-}
 
-.section-2-wrapper .main-text h2{
-    font-size: 35px;
-    padding: 0 24px;
-    margin: 0 10px;
-}
-.section-2-wrapper .main-text p{
-    font-size: 18px;
-    padding: 0 20px;
-    margin: 15px 15px;
-}
-.section-2-wrapper .main-text a{
-    padding-top: 5px;
-    padding-left: 25px;
-    margin-left: 10px;
-}
-.section-1-wrapper button{
-    margin-bottom: 20px;
-}
-/* -------------------------------------------------------- */
-.section-4 p{
-    margin: 20px 0;
-    padding: 0 20px;
-}
-.store-box{
-    flex-wrap: wrap;
-}   
-.store-box .box-1{
-        width: 45%;
-        margin-bottom: 20px;
+
+    .nav-menu{
+        font-size: 23px;
+        position: absolute;
+        right: 0px;
+        top: 100px;
+       
+        background-color: rgba(0, 0, 0, 0.714);
+        display: none;
     }
-    .store-box .box-1 p{
-        margin-top: 47px;
-    }
-    .coffee-jar{
-        margin: 60px 0;
-        margin-right: 40px;
-    }
-    .section-5 .main-text{
-        margin-top:0;
-        padding: 20px 0;
-    }
-    .company-logo {
+    .nav-menu a{
+        font-size: 33px;
         text-align: center;
+        margin: 40px;
     }
-    /* -------------------------------------------------------- */
-    .section-6 .col-container{
-        /* width: 100%; */
+    .nav-menu p{
+        margin: 40px 100px;
+        padding-right: 32px;
+    }
+    .bar{
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 70px;
+       }
+
+       #check:checked ~ .nav-menu{
+        display: block;
+        display: flex;
         flex-direction: column;
-        /* flex-wrap: wrap; */
+    } 
+    .row button {
+        margin-right: 50px;
     }
-    .section-6 h2{
-        text-align: center;
+    .date-time button{
+        padding: 20px;
+        margin: 12px 0 2px;
+        margin-left: 10px;
     }
-    .section-6-wrapper button{
-        margin: 40px 0;
+    .date, .time, .mail{
+        justify-content: center;
     }
-    .section-6 .col-container .col-40{
-        width: 100%;
-    }    
-    .section-6 .col-container .col-60{
-        width: 100%;
-        text-align: center;
+    .time-format, .mail-format{
+        margin-left: 0;
+        margin-top: 10px;
     }
-    .section-6 .col-60 .main-text {
-        /* margin: 0 auto; */
-        padding-left: 0;
+    .header .main-text {
+        padding: 70px 0 0;
     }
-    
-    /* -------------------------------------------------------- */
-    .footer-brand{
+    .time-format, .mail-format{
+        margin-left: 10px;
+    }
+    .date-time{
+        flex-wrap: wrap;
+    }
+
+    .section-1 .food-box{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+    .section-1 .food-box .food-1{
         width: 45%;
     }
-    .address{
-        margin: 20px 0;
-        text-align: center;
-
+    .section-3 .col-40, .section-3 .col-60,    .section-4 .col-40, .section-4 .col-60, .section-5 .col-40, .section-5 .col-60{
+        width: 100%;
     }
-    .links{
-        text-align: center;
+    .section-3 .col-container, .section-4 .col-container, .section-5 .col-container{
+        flex-direction: column;
+    }
+    .section-3 .main-text-3,  .section-4 .main-text-3,  .section-5 .main-text-3{
         margin-right: 0;
+        padding: 80px 0 40px;
+    }
+    .section-3 .col-60 .illustration-2, .section-4 .col-60 .illustration-2, .section-5 .col-60 .illustration-2{
+        margin: 0 0;
+        padding: 25px;
+    }
+    .section-5 .main-text-3{
+        padding: 40px 0 40px;
+    }
+   
+    .links {
+        padding: 30px 0;
+    }
+    footer h2 {
+    font-size: 35px;
+    }
+    div[class*="anchor"] {
+        margin: 0 5px;
     }
     div[class*="anchor"] a{
-        margin: 5px 25px;
+        margin-top: 10px;
+        font-size: 17px;
     }
-    .copy-logo{
-        margin:0 80px ;
-    }
-    .copywrite{
-        margin-top: 20px;
-    }
-    .company-logo{
-        text-align: center;
-    }
-    .address p{
-        margin: 10px 0;
-        
-    }
-
 }

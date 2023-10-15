@@ -1,77 +1,55 @@
 @media (max-width: 992px) { 
 
-header p{
-    padding: 0 0;
-}    
-.main-text-wrapper{
-    padding-bottom: 0;
+.header .header-wrapper .container .image-container .col-40{
+    width: 50%;
 }
-.section-1-wrapper .main-text{
-    padding-top: 58px;
-}
+/* .date-time button{
+    padding: 20px;
+    margin: 12px 0 2px;
+    margin-left: 20px;
+} */
 
-.section-2-wrapper .main-text h2{
-    font-size: 75px;
-    padding: 0 10px;
-    margin: 0 20px;
+.section-3 .col-40, .section-3 .col-60{
+    width: 50%;
     
 }
-.section-2-wrapper .main-text p{
-    margin: 20px 20px;
-    padding: 0 10px;
-}
-.section-2-wrapper .main-text{
-    padding-top: 20px;
-}
-/* 
+.section-3 .col-60{
+    display: flex;
+    align-items: center;
 
-*/
-   
-.section-2-wrapper .main-text a{
-    padding-left: 20px;
 }
 
-/* -------------------------------------------------------------------------------------------------- */
-
-.store-box button{
-    margin: 10px 0 30px;
-    background-color: #b13941;
-    font-weight: 700;
-    font-family: "EB Garamond";
-}
-/* -------------------------------------------------------------------------------------------------- */
-.section-5 .main-text{
-    /* margin-top: 100px; */
-    margin-top: 50px;
+.section-4 .col-40, .section-4 .col-60{
+    width: 50%;
     
 }
-.section-5 .main-text h2{
+.section-4 .col-40 h2{
     font-size: 45px;
 }
-.section-5 .main-text p{
-    margin: 10px 0;
+.section-3 .col-40 h2{
+    font-size: 45px;
+}
+.section-4 .col-60{
+    display: flex;
+    align-items: center;
+
 }
 
-/* -------------------------------------------------------------------------------------------------- */
 
-.section-6 textarea{
-    height: 180px;
+.section-5 .col-40, .section-5 .col-60{
+    width: 50%;
+    
 }
-.section-6-wrapper button{
-   
-    padding: 10px 20px;
-    margin: 10px 0;
-    margin-left: 70px;
-    margin-bottom: 0px;
+.section-5 .col-40 h2{
+    font-size: 45px;
 }
-/* -------------------------------------------------------------------------------------------------- */
+.section-3 .col-40 h2{
+    font-size: 45px;
+}
+.section-5 .col-60{
+    display: flex;
+    align-items: center;
 
-footer .col-container{
-    justify-content: space-evenly;
-    flex-wrap: wrap;
- }
-
-
-
+}
 }
 

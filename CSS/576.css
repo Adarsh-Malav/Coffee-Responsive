@@ -1,26 +1,33 @@
-@media (max-width: 576px) {
- .header{
-    text-align: center;
- }
- .row button {
-    margin-right: 70px;
-}
- .section-2, .section-3, .section-4, .section-5{
-    text-align: center;
- }
- .section-1 .food-box .food-1{
-    width: 100%;
-}
-.anchlink{
-    gap: 50px;
-}
-.links{
+@media (max-width: 576px) { 
+    .section-2-wrapper .col-container{
+         flex-direction: column;
+    }
+    .section-2-wrapper .col-50{
+         width: 100%;
+         justify-content: center;
+    }
+    .section-2-wrapper .main-text {
+        margin: 0px 0;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .burger {
+        width: 80%;
+        margin: 48px 0;
+    }
+    .circles {
+        padding: 0px 0 90px;
+    }
+   footer .col-60{
     flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
-    gap: 30px;
+   }
+   div[class*="anchor"] {
+    margin-top: 40px;
+   }
+   .email-sub {
+    width: 73%;
+   
 }
-footer h2{
-    text-align: center;
-}
+    
 }

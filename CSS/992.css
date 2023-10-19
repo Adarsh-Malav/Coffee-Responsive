@@ -1,55 +1,25 @@
 @media (max-width: 992px) { 
+    .nav-menu p{
+        font-size: 18px;
+        padding: 0 15px;
+    }
+    .nav-menu{
+        padding: 0 25px;
+    }
+    .section-2-wrapper .main-text h2 {
+        font-size: 55px;
+    }
+    .email-sub {
+        width: 73%;
+       
+    }
+    footer .col-container{
+        flex-direction: column;
+    }
+    footer .col-40, footer .col-60{
+        width: 100%;
+        text-align: center;
+        margin: 0px 0 40px;
 
-.header .header-wrapper .container .image-container .col-40{
-    width: 50%;
+    }
 }
-/* .date-time button{
-    padding: 20px;
-    margin: 12px 0 2px;
-    margin-left: 20px;
-} */
-
-.section-3 .col-40, .section-3 .col-60{
-    width: 50%;
-    
-}
-.section-3 .col-60{
-    display: flex;
-    align-items: center;
-
-}
-
-.section-4 .col-40, .section-4 .col-60{
-    width: 50%;
-    
-}
-.section-4 .col-40 h2{
-    font-size: 45px;
-}
-.section-3 .col-40 h2{
-    font-size: 45px;
-}
-.section-4 .col-60{
-    display: flex;
-    align-items: center;
-
-}
-
-
-.section-5 .col-40, .section-5 .col-60{
-    width: 50%;
-    
-}
-.section-5 .col-40 h2{
-    font-size: 45px;
-}
-.section-3 .col-40 h2{
-    font-size: 45px;
-}
-.section-5 .col-60{
-    display: flex;
-    align-items: center;
-
-}
-}
-
